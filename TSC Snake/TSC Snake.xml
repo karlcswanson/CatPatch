@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/karl/Dropbox/brainstorm/Projects/Current Projects/TSC Subsnake/PCB/TSC Snake.sch</source>
+    <date>Monday, June 19, 2017 'PMt' 07:17:18 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TSC Snake.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>XLR3</value>
+      <libsource lib="conn" part="XLR3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594219EB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>XLR3</value>
+      <libsource lib="conn" part="XLR3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59421A6D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>XLR3</value>
+      <libsource lib="conn" part="XLR3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5948604A</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594860A7</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594860DF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>XLR3</value>
+      <libsource lib="conn" part="XLR3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594861F9</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_Open</value>
+      <libsource lib="switches" part="SW_Push_Open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59487129</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_Open</value>
+      <libsource lib="switches" part="SW_Push_Open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5948718C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="RJ45">
+      <description>RJ45 connector with shield</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push_Open">
+      <description>Push button switch, push-to-open, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="XLR3">
+      <description>3 pins</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XLR3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/Library/Application Support/kicad/library/switches.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad3)">
+      <node ref="J5" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad2)">
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J6-Pad9)">
+      <node ref="J6" pin="9"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J5-Pad9)">
+      <node ref="SW1" pin="1"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="5" name="Net-(J3-Pad2)">
+      <node ref="J5" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J4-Pad3)">
+      <node ref="J5" pin="8"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J6" pin="8"/>
+    </net>
+    <net code="7" name="Net-(J4-Pad2)">
+      <node ref="J5" pin="7"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad3)">
+      <node ref="J6" pin="5"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad3)">
+      <node ref="J6" pin="6"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J5" pin="6"/>
+    </net>
+  </nets>
+</export>
