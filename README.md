@@ -19,8 +19,8 @@ PCB Designs for a subsnake system
 |   6 | 3- | 2- |
 |   7 | 4+ | 4+ |
 |   8 | 4- | 4- |
-
-### Sources
+---
+###### Sources
 * [RAT CAT Snake](http://www.ratsoundsales.com/mm5/pdf/etherCON_wiring_diagram.pdf)
 * [Radial Catapult](http://www.radialeng.com/pdfs/Catapult-userguide.pdf)
 * [Whirlwind Catdusa](http://whirlwindusa.com/media/uploads/catdusa_manual.pdf)
