@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/karl/Dropbox/brainstorm/Projects/Current Projects/TSC Subsnake/PCB/TSCBreakoutBoard/TSCBreakoutBoard.sch")
-    (date "Wednesday, September 06, 2017 'PMt' 02:35:18 PM")
+    (date "Sunday, April 22, 2018 'PMt' 09:04:54 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
