@@ -1,0 +1,15 @@
+* /Users/karl/Dropbox/brainstorm/Projects/Current Projects/TSC Subsnake/PCB/TSCBreakoutBoard/TSCBreakoutBoard.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sunday, April 22, 2018 'PMt' 09:00:28 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+J5  Net-_J2-Pad2_ Net-_J2-Pad3_ Net-_J3-Pad2_ Net-_J1-Pad3_ Net-_J1-Pad2_ Net-_J3-Pad3_ Net-_J4-Pad2_ Net-_J4-Pad3_ Net-_J1-Pad1_ RJ45		
+J1  Net-_J1-Pad1_ Net-_J1-Pad2_ Net-_J1-Pad3_ CH 1		
+J2  Net-_J1-Pad1_ Net-_J2-Pad2_ Net-_J2-Pad3_ CH2		
+J3  Net-_J1-Pad1_ Net-_J3-Pad2_ Net-_J3-Pad3_ CH 3		
+J4  Net-_J1-Pad1_ Net-_J4-Pad2_ Net-_J4-Pad3_ CH 4		
+
+.end
