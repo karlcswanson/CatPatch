@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name NeutrikSnakeLib)(type KiCad)(uri "/Users/karl/Dropbox/brainstorm/Projects/Current Projects/TSC Subsnake/PCB/NeutrikSnakeLib.pretty")(options "")(descr ""))
-  (lib (name logo)(type KiCad)(uri "/Users/karl/Dropbox/brainstorm/Projects/Current Projects/TSC Subsnake/PCB/logo.pretty")(options "")(descr ""))
+  (lib (name NeutrikSnakeLib)(type KiCad)(uri ${KIPRJMOD}/../NeutrikSnakeLib.pretty)(options "")(descr ""))
 )
