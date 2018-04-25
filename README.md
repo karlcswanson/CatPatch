@@ -58,16 +58,16 @@ PCB Designs for a subsnake system
 
 
 ## Existing Pinouts
-| RJ45 Pin | RAT & ETS | Radial & Whirlwind |
-|:--------:|----------:|-------------------:|
-|    1     |        2+ |                 1+ |
-|    2     |        2- |                 1- |
-|    3     |        3+ |                 2+ |
-|    4     |        1- |                 3+ |
-|    5     |        1+ |                 3- |
-|    6     |        3- |                 2- |
-|    7     |        4+ |                 4+ |
-|    8     |        4- |                 4- |
+| RJ45 Pin | T568B | RAT & ETS | Radial & Whirlwind |
+|:--------:|:-----:|:---------:|:------------------:|
+|    1     |  WO   |    2+     |         1+         |
+|    2     |   O   |    2-     |         1-         |
+|    3     |  WG   |    3+     |         2+         |
+|    4     |   B   |    1-     |         3+         |
+|    5     |  WB   |    1+     |         3-         |
+|    6     |   G   |    3-     |         2-         |
+|    7     |  WBr  |    4+     |         4+         |
+|    8     |  Br   |    4-     |         4-         |
 ---
 ###### Sources
 * [RAT CAT Snake](http://www.ratsoundsales.com/mm5/pdf/etherCON_wiring_diagram.pdf)
