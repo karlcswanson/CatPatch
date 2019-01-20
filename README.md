@@ -33,9 +33,11 @@ The DI PCB supports the Jensen JT-DB-EPC transformer found in DIs like the Radia
 The simplest configuration of the board requires a transformer and 6k81Ω resistor. A stereo summing circuit can be added with a few resistors.  See the [schematic](doc/TSCSnakeDI.pdf) and the [classic RaneNote](https://www.rane.com/note109.html) for more details.
 
 A [drill template](doc/drillguide.pdf) can be found in the docs folder.
-![Response](doc/img/response.png)
 
 Labels can be printed on standard ID cards and can be attached with 3M Command Strip adhesive.
+##### Frequency Response
+
+![Response](doc/img/response.png)
 ## I just want the boards, how do I get boards?
 The boards used for this project are shared at [OSHPARK](https://oshpark.com/profiles/karlcswanson) and can be ordered there.
 
