@@ -3,8 +3,6 @@
 
 This repository contains images and KiCad files for a CAT5e subsnake and DI system.
 
-Labels can be printed on standard ID cards and can be attached with 3M Command Strip adhesive.
-
 A brief build log for the DI and breakout cable can be found [here](https://imgur.com/a/OviKR).
 
 ## Pinouts
@@ -29,7 +27,7 @@ Shielded cable is needed when using phantom powered, Clear-Com, and DMX devices 
 
 Dynamic mics and passive DIs may work without the recommended shield.
 
-## DI PCB
+## DI
 The DI PCB supports the Jensen JT-DB-EPC transformer found in DIs like the Radial JDI. A more affordable transformer can be substituted and can be found in the BOM.
 
 The simplest configuration of the board requires a transformer and 6k81Ω resistor. A stereo summing circuit can be added with a few resistors.  See the [schematic](doc/TSCSnakeDI.pdf) and the [classic RaneNote](https://www.rane.com/note109.html) for more details.
@@ -37,6 +35,7 @@ The simplest configuration of the board requires a transformer and 6k81Ω resist
 A [drill template](doc/drillguide.pdf) can be found in the docs folder.
 ![Response](doc/img/response.png)
 
+Labels can be printed on standard ID cards and can be attached with 3M Command Strip adhesive.
 ## I just want the boards, how do I get boards?
 The boards used for this project are shared at [OSHPARK](https://oshpark.com/profiles/karlcswanson) and can be ordered there.
 
