@@ -1,7 +1,7 @@
 # CatPatch
 ![PCB](doc/img/pcb.png)
 
-This repository is a collection of reference images and KiCad PCB designs for a CAT5e/CAT6 based audio subsnake and DI system.
+This repository contains images and KiCad files for a CAT5e subsnake and DI system.
 
 Labels can be printed on standard ID cards and can be attached with 3M Command Strip adhesive.
 
