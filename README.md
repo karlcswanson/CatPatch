@@ -3,6 +3,26 @@ PCB Designs for a subsnake system
 
 
 
+
+
+
+
+
+## Project Gallery
+![completed boxes](doc/img/A.jpg)
+![rack wiring](doc/img/B.jpg)
+1U prepunched enclosure from Redco.
+![front patching](doc/img/C.jpg)
+![front patching](doc/img/D.jpg)
+
+![DI Labels](doc/img/E.jpg)
+Got a new badge printer at work! Made some custom labels in Illustrator. Use 3M Command Strips to affix to the boxes.  Should be easy to make occasional changes to.
+![Pedalboard box](doc/img/F.jpg)
+The intention of these boxes was to have one per pedalboard. Here we see one in its natural habitat.
+![Electric Box](doc/img/G.jpg)
+![Rack](doc/img/H.jpg)
+
+
 ## BOM
 #### Breakout Panel
 
@@ -71,5 +91,5 @@ PCB Designs for a subsnake system
 ---
 ###### Sources
 * [RAT CAT Snake](http://www.ratsoundsales.com/mm5/pdf/etherCON_wiring_diagram.pdf)
-* [Radial Catapult](http://www.radialeng.com/pdfs/Catapult-userguide.pdf)
+* [Radial Catapult](http://www.radialeng.com/wp-content/uploads/2018/05/Catapult-userguide.pdf)
 * [Whirlwind Catdusa](http://whirlwindusa.com/media/uploads/catdusa_manual.pdf)
