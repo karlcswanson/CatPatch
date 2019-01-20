@@ -23,7 +23,7 @@ The system, as labeled, is pin-compatible with RAT and ETS audio twisted pair pr
 [RAT CAT Snake](http://www.ratsoundsales.com/mm5/pdf/etherCON_wiring_diagram.pdf) | [Radial Catapult](http://www.radialeng.com/wp-content/uploads/2018/05/Catapult-userguide.pdf) | [Whirlwind Catdusa](http://whirlwindusa.com/media/uploads/catdusa_manual.pdf)
 
 ## Cable
-Shielded cable is needed when using phantom powered, Clear-Com, and DMX devices over twisted pair.  The shield is used for pin 1/ground for the connected devices. An EtherCON connector does not indicate that a cable is shielded.
+Shielded cable is needed when using phantom powered, Clear-Com, and DMX devices over twisted pair.  These devices require pin 1/ground to work. An EtherCON connector does not indicate that a cable is shielded.
 
 Dynamic mics and passive DIs may work without the recommended shield.
 
