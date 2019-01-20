@@ -1,27 +1,33 @@
 # CatPatch
-PCB Designs for a subsnake system
+![PCB](doc/img/pcb.png)
 
+This repository is a collection of reference images and PCB designs for a CAT5e/CAT6 based audio subsnake and DI system.
 
+Labels can be printed on standard ID cards and can be attached with 3M Command Strip adhesive.
 
+A build log for the DI and breakout cable can be found [here](https://imgur.com/a/OviKR)
 
+## Pinouts
+The system, as labeled, is pin-compatible with RAT and ETS audio twisted pair products.  The silkscreen and wiring can be adjusted to make it compatible with other standards.
 
+| RJ45 Pin | T568B | RAT & ETS | Radial & Whirlwind |
+|:--------:|:-----:|:---------:|:------------------:|
+|    1     |  WO   |    2+     |         1+         |
+|    2     |   O   |    2-     |         1-         |
+|    3     |  WG   |    3+     |         2+         |
+|    4     |   B   |    1-     |         3+         |
+|    5     |  WB   |    1+     |         3-         |
+|    6     |   G   |    3-     |         2-         |
+|    7     |  WBr  |    4+     |         4+         |
+|    8     |  Br   |    4-     |         4-         |
+---
+###### Sources
+[RAT CAT Snake](http://www.ratsoundsales.com/mm5/pdf/etherCON_wiring_diagram.pdf) | [Radial Catapult](http://www.radialeng.com/wp-content/uploads/2018/05/Catapult-userguide.pdf) | [Whirlwind Catdusa](http://whirlwindusa.com/media/uploads/catdusa_manual.pdf)
 
+## Cable
+Shielded cable is needed when using phantom powered, Clear-Com, and DMX devices over twisted pair.  The shield is used for pin 1/ground for the connected devices. An EtherCON connector does not indicate that a cable is shielded.
 
-
-## Project Gallery
-![completed boxes](doc/img/A.jpg)
-![rack wiring](doc/img/B.jpg)
-1U prepunched enclosure from Redco.
-![front patching](doc/img/C.jpg)
-![front patching](doc/img/D.jpg)
-
-![DI Labels](doc/img/E.jpg)
-Got a new badge printer at work! Made some custom labels in Illustrator. Use 3M Command Strips to affix to the boxes.  Should be easy to make occasional changes to.
-![Pedalboard box](doc/img/F.jpg)
-The intention of these boxes was to have one per pedalboard. Here we see one in its natural habitat.
-![Electric Box](doc/img/G.jpg)
-![Rack](doc/img/H.jpg)
-
+Dynamic mics and passive DIs may work without the recommended shield.
 
 ## BOM
 #### Breakout Panel
@@ -37,8 +43,6 @@ The intention of these boxes was to have one per pedalboard. Here we see one in 
 | [Flat Head Screws][7]                      | -            |    2     |   $6.49/50 |
 | [Steel Locknut with Lock Washer][8]        | -            |    2     |  $8.72/100 |
 | N8FDV breakout PCB                         | Custom       |    7     |          - |
-
-
 
 
 #### DI Box
@@ -77,19 +81,12 @@ The intention of these boxes was to have one per pedalboard. Here we see one in 
 [17]: https://www.mcmaster.com/#91255a106/=1cjoqt3
 
 
-## Existing Pinouts
-| RJ45 Pin | T568B | RAT & ETS | Radial & Whirlwind |
-|:--------:|:-----:|:---------:|:------------------:|
-|    1     |  WO   |    2+     |         1+         |
-|    2     |   O   |    2-     |         1-         |
-|    3     |  WG   |    3+     |         2+         |
-|    4     |   B   |    1-     |         3+         |
-|    5     |  WB   |    1+     |         3-         |
-|    6     |   G   |    3-     |         2-         |
-|    7     |  WBr  |    4+     |         4+         |
-|    8     |  Br   |    4-     |         4-         |
----
-###### Sources
-* [RAT CAT Snake](http://www.ratsoundsales.com/mm5/pdf/etherCON_wiring_diagram.pdf)
-* [Radial Catapult](http://www.radialeng.com/wp-content/uploads/2018/05/Catapult-userguide.pdf)
-* [Whirlwind Catdusa](http://whirlwindusa.com/media/uploads/catdusa_manual.pdf)
+
+
+
+## Project Images
+![completed boxes](doc/img/A.jpg)
+![rack wiring](doc/img/B.jpg)
+![Pedalboard box](doc/img/F.jpg)
+![Rack](doc/img/H.jpg)
+![Response](doc/img/response.png)
