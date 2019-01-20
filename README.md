@@ -1,11 +1,11 @@
 # CatPatch
 ![PCB](doc/img/pcb.png)
 
-This repository is a collection of reference images and PCB designs for a CAT5e/CAT6 based audio subsnake and DI system.
+This repository is a collection of reference images and KiCad PCB designs for a CAT5e/CAT6 based audio subsnake and DI system.
 
 Labels can be printed on standard ID cards and can be attached with 3M Command Strip adhesive.
 
-A build log for the DI and breakout cable can be found [here](https://imgur.com/a/OviKR).
+A brief build log for the DI and breakout cable can be found [here](https://imgur.com/a/OviKR).
 
 ## Pinouts
 The system, as labeled, is pin-compatible with RAT and ETS audio twisted pair products.  The silkscreen and wiring can be adjusted to make it compatible with other standards.
@@ -28,6 +28,17 @@ The system, as labeled, is pin-compatible with RAT and ETS audio twisted pair pr
 Shielded cable is needed when using phantom powered, Clear-Com, and DMX devices over twisted pair.  The shield is used for pin 1/ground for the connected devices. An EtherCON connector does not indicate that a cable is shielded.
 
 Dynamic mics and passive DIs may work without the recommended shield.
+
+## DI PCB
+The DI PCB supports the Jensen JT-DB-EPC transformer found in DIs like the Radial JDI. A more affordable transformer can be substituted and can be found in the BOM.
+
+The simplest configuration of the board requires a transformer and 6k81Ω resistor. A stereo summing circuit can be added with a few resistors.  See the [schematic](doc/TSCSnakeDI.pdf) and the [classic RaneNote](https://www.rane.com/note109.html) for more details.
+
+A [drill template](docs/drillguide.pdf) can be found in the docs folder.
+![Response](doc/img/response.png)
+
+## Just want the boards, how do I get a boards?
+The boards used for this project are shared at [OSHPARK](https://oshpark.com/profiles/karlcswanson) and can be ordered there.
 
 ## BOM
 #### Breakout Panel
@@ -81,9 +92,6 @@ Dynamic mics and passive DIs may work without the recommended shield.
 [17]: https://www.mcmaster.com/#91255a106/=1cjoqt3
 
 
-
-
-
 ## Project Images
 ![completed boxes](doc/img/A.jpg)
 ![rack wiring](doc/img/B.jpg)
@@ -91,4 +99,3 @@ Dynamic mics and passive DIs may work without the recommended shield.
 ![Elec](doc/img/G.jpg)
 ![Pedalboard box](doc/img/C.jpg)
 ![Rack](doc/img/H.jpg)
-![Response](doc/img/response.png)
