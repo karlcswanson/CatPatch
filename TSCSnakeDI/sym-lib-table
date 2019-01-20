@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TSCSnakeDI-rescue)(type Legacy)(uri ${KIPRJMOD}/TSCSnakeDI-rescue.lib)(options "")(descr ""))
+  (lib (name TSC)(type Legacy)(uri "/Users/karl/Dropbox/brainstorm/Projects/Current Projects/TSC Subsnake/PCB/TSC.lib")(options "")(descr ""))
+)

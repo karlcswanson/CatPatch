@@ -5,21 +5,21 @@ This repository is a collection of reference images and PCB designs for a CAT5e/
 
 Labels can be printed on standard ID cards and can be attached with 3M Command Strip adhesive.
 
-A build log for the DI and breakout cable can be found [here](https://imgur.com/a/OviKR)
+A build log for the DI and breakout cable can be found [here](https://imgur.com/a/OviKR).
 
 ## Pinouts
 The system, as labeled, is pin-compatible with RAT and ETS audio twisted pair products.  The silkscreen and wiring can be adjusted to make it compatible with other standards.
 
-| RJ45 Pin | T568B | RAT & ETS | Radial & Whirlwind |
-|:--------:|:-----:|:---------:|:------------------:|
-|    1     |  WO   |    2+     |         1+         |
-|    2     |   O   |    2-     |         1-         |
-|    3     |  WG   |    3+     |         2+         |
-|    4     |   B   |    1-     |         3+         |
-|    5     |  WB   |    1+     |         3-         |
-|    6     |   G   |    3-     |         2-         |
-|    7     |  WBr  |    4+     |         4+         |
-|    8     |  Br   |    4-     |         4-         |
+| RJ45 Pin | [T568B](https://en.wikipedia.org/wiki/TIA/EIA-568#Wiring) | RAT & ETS | Radial & Whirlwind |
+|:--------:|:---------------------------------------------------------:|:---------:|:------------------:|
+|    1     |                            WO                             |    2+     |         1+         |
+|    2     |                             O                             |    2-     |         1-         |
+|    3     |                            WG                             |    3+     |         2+         |
+|    4     |                             B                             |    1-     |         3+         |
+|    5     |                            WB                             |    1+     |         3-         |
+|    6     |                             G                             |    3-     |         2-         |
+|    7     |                            WBr                            |    4+     |         4+         |
+|    8     |                            Br                             |    4-     |         4-         |
 ---
 ###### Sources
 [RAT CAT Snake](http://www.ratsoundsales.com/mm5/pdf/etherCON_wiring_diagram.pdf) | [Radial Catapult](http://www.radialeng.com/wp-content/uploads/2018/05/Catapult-userguide.pdf) | [Whirlwind Catdusa](http://whirlwindusa.com/media/uploads/catdusa_manual.pdf)
@@ -88,5 +88,7 @@ Dynamic mics and passive DIs may work without the recommended shield.
 ![completed boxes](doc/img/A.jpg)
 ![rack wiring](doc/img/B.jpg)
 ![Pedalboard box](doc/img/F.jpg)
+![Elec](doc/img/G.jpg)
+![Pedalboard box](doc/img/C.jpg)
 ![Rack](doc/img/H.jpg)
 ![Response](doc/img/response.png)
